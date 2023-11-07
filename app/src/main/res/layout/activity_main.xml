@@ -12,15 +12,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop="50dp"
-        android:paddingVertical="50dp">
+        android:layout_marginTop="50sp"
+        android:paddingVertical="50sp">
         <TextView
             android:id="@+id/tvOldInput"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="50sp"
             android:gravity="right|center_vertical"
-            android:textSize="25dp"
-            android:paddingHorizontal="30dp"
+            android:textSize="25sp"
+            android:paddingHorizontal="30sp"
             android:text=""/>
         <LinearLayout
             android:layout_width="match_parent"
@@ -32,19 +32,19 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_gravity="center"
-                android:textSize="30dp"
+                android:textSize="30sp"
                 android:gravity="center_vertical|left"
-                android:paddingLeft="50dp"
+                android:paddingLeft="50sp"
                 android:text=""/>
             <TextView
                 android:id="@+id/tvInput"
                 android:layout_width="wrap_content"
-                android:layout_height="50dp"
+                android:layout_height="50sp"
                 android:layout_gravity="center"
                 android:gravity="right|center_vertical"
                 android:textSize="40dp"
                 android:textColor="@color/white"
-                android:paddingHorizontal="30dp"
+                android:paddingHorizontal="30sp"
                 android:text="@string/zero"/>
         </LinearLayout>
 
@@ -60,7 +60,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:background="@color/background"
             android:text="@string/all_clear" />
         <Button
@@ -68,7 +68,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:background="@color/background"
             android:text="@string/clear"/>
         <ImageButton
@@ -84,7 +84,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="30dp"
+            android:textSize="30sp"
             android:background="@color/background"
             android:textColor="@color/green"
             android:text="@string/divide" />
@@ -99,7 +99,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:background="@color/background"
             android:text="@string/seven"/>
         <Button
@@ -107,7 +107,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:background="@color/background"
             android:text="@string/eight"/>
         <Button
@@ -115,7 +115,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:background="@color/background"
             android:text="@string/nine"/>
         <Button
@@ -123,7 +123,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="30dp"
+            android:textSize="30sp"
             android:background="@color/background"
             android:text="@string/times"
             android:textColor="@color/green"/>
@@ -138,7 +138,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:background="@color/background"
             android:text="@string/four"/>
         <Button
@@ -146,7 +146,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:background="@color/background"
             android:text="@string/five"/>
         <Button
@@ -154,7 +154,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:background="@color/background"
             android:text="@string/six"/>
         <Button
@@ -162,7 +162,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="30dp"
+            android:textSize="30sp"
             android:background="@color/background"
             android:text="@string/minus"
             android:textColor="@color/green"/>
@@ -177,7 +177,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:background="@color/background"
             android:text="@string/one"/>
         <Button
@@ -185,7 +185,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:background="@color/background"
             android:text="@string/two"/>
         <Button
@@ -193,7 +193,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:background="@color/background"
             android:text="@string/three"/>
         <Button
@@ -201,7 +201,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="30dp"
+            android:textSize="30sp"
             android:background="@color/background"
             android:text="@string/plus"
             android:textColor="@color/green"/>
@@ -216,7 +216,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:background="@color/background"
             android:text="@string/dot"/>
         <Button
@@ -224,7 +224,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:background="@color/background"
             android:text="@string/zero"/>
 
@@ -233,7 +233,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="8"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:background="@color/orange"
             android:text="@string/equals" />
     </LinearLayout>
